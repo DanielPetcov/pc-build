@@ -1,6 +1,7 @@
 import MainPage from './pages/mainPage';
 
 function App() {
+  
   return (
     <>
       <div className="flex flex-col bg-primary min-h-screen py-10 gap-10 px-4">
