@@ -1,3 +1,5 @@
+import Tag from "./tag";
+
 interface ProductCardProps {
     product: {
         name: string;
@@ -27,9 +29,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
             {/* price tag */}
             {(product.bought) ?
-                <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-fit bg-green-300 text-white font-semibold p-2 rounded-md">
-                    <p>Cumparat</p>
-                </div>
+                <Tag bg_color="bg-green-300" text_color="text-white" text="Cumparat"/>
              : undefined}
         </div>
     )
