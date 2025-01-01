@@ -9,7 +9,7 @@ interface Component {
 
 const Calculator = () => {
 
-    const totalPrice = components.reduce((acc, component) => acc + component.price, 0);
+    const totalPrice = components.reduce((acc, component : Component) => acc + component.price, 0);
 
   return (
     <div>
