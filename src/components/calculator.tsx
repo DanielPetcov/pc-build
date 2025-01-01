@@ -5,6 +5,7 @@ interface Component {
     price: number; 
     link: string;
     image: string;
+    bought: boolean;
 }
 
 const Calculator = () => {

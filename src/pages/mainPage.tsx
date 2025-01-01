@@ -3,7 +3,7 @@ import components from "../data/components"
 
 const MainPage = () => {
     return (
-        <div className="grid grid-cols-2 lg:grid-cols-3 max-w-[1500px] mx-auto gap-2 lg:gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 max-w-[1500px] mx-auto gap-2 gap-y-4 lg:gap-4">
            {components.map((component) => (
             <ProductCard product={component} />
            ))}
