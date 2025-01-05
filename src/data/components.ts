@@ -3,6 +3,8 @@ import ryzen7 from '../assets/components/procesor.webp'
 import hdd from '../assets/components/hdd.png'
 import ssd from '../assets/components/KINGSTON_ssd.png'
 import ram from '../assets/components/Kingston-FURY-RENEGADE-16GB.webp'
+import deepcool from '../assets/components/deepcool.webp'
+import asrock from '../assets/components/asrock.jpg'
 const components = [
     {
         name: "be quiet! PURE POWER 12 M 850W",
@@ -38,6 +40,20 @@ const components = [
         image: ssd,
         link: "https://www.fantastic.md/ssd-kingston-kc3000-skc3000s-1024g/765-280264",
         bought: true
+    },
+    {
+        name: "DEEPCOOL AS500 PLUS",
+        price: 1435,
+        image: deepcool,
+        link: "https://www.fantastic.md/cooler-universal-deepcool-as500-plus/133-229210",
+        bought: false
+    },
+    {
+        name: "ASROCK B550 PRO4",
+        price: 2344,
+        image: asrock,
+        link: "https://www.fantastic.md/placa-de-baza-asrock-b550-pro4/134-249165",
+        bought: false,
     }
 ]
 
