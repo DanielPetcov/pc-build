@@ -14,7 +14,7 @@ const components = [
         price: 3399,
         image: ryzen7,
         link: "https://999.md/ro/88293752",
-        bought: false,
+        bought: true,
     },
     {
         name: "ASROCK B550 PRO4",
